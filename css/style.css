@@ -1,0 +1,84 @@
+*{
+  font-family: 'Open Sans', sans-serif !important;
+  color:#fff !important;
+}
+body {
+  color: #FFFFFF;
+  background-color: #013356;
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+}
+
+.italic {
+  font-style: italic;
+}
+.white{
+  color:#fff !important;
+}
+.bold {
+  font-weight: 700;
+}
+#tabzilla{
+  right:15%;
+}
+.container-fluid{
+  min-width:100%;
+  max-width:100%;
+}
+.landing-section{
+  padding-bottom:100px;
+}
+#top-static-fix{
+  background-color:rgba(10, 134, 188,0.7);
+  padding-top:80px;
+  padding-bottom:30px;
+}
+
+#heading{
+  font-weight:300;
+  font-size:70px;
+}
+#top-static-fix p{
+  font-size:16px;
+  margin-top:20px;
+  line-height:2em;
+}
+.way-to-involve p{
+  font-size:3em; 
+  margin-top:10px;
+  font-weight:300;
+}
+.involve-btn{
+  margin-top:10px;
+}
+.involve-btn>div>div{
+  height:60px;
+}
+.involve-btn a.on-off{
+  background-color:#16A913;
+  border-radius:6px;
+  border:1px solid #fff;
+  padding:8px 60px;
+  font-weight:700;
+}
+/* message section */
+.message-section{
+  padding-top:10px;
+}
+.message-section .message-head{
+  padding-bottom:20px;
+}
+.message-section .message-head p{
+  font-size:3em;
+  font-weight:300;
+}
+.icon-div img{
+  height: 110px;
+  width: 90px;
+  margin: auto;
+  display: block;
+}
+.tile-head p,.tile-body p,.tile-footer a, .title-body ul li{
+  font-size:1.2rem;
+}
