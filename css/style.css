@@ -1,6 +1,6 @@
 *{
-  font-family: 'Open Sans', sans-serif !important;
-  color:#fff !important;
+  font-family: 'Open Sans', sans-serif;
+  color:#fff;
 }
 body {
   color: #FFFFFF;
@@ -9,7 +9,9 @@ body {
   width: 100%;
   margin: 0;
 }
-
+a{
+  color:#fff;
+}
 .italic {
   font-style: italic;
 }
@@ -27,21 +29,31 @@ body {
   max-width:100%;
 }
 .landing-section{
-  padding-bottom:100px;
+  padding-bottom: 325px;
+  background: url('../images/full-bg-wo-top-wo-globe.png') repeat scroll left top / cover transparent;
+  background-position: 10px 45px !important;
 }
 #top-static-fix{
   background-color:rgba(10, 134, 188,0.7);
   padding-top:80px;
   padding-bottom:30px;
+  position:relative;
 }
-
+#abs-img-logo{
+  display: block;
+  position: absolute;
+  width: 363px;
+  height: 208px;
+  right: 20px;
+  bottom: -118px;
+}
 #heading{
   font-weight:300;
   font-size:70px;
 }
 #top-static-fix p{
   font-size:16px;
-  margin-top:20px;
+  margin-top:10px;
   line-height:2em;
 }
 .way-to-involve p{
@@ -79,6 +91,35 @@ body {
   margin: auto;
   display: block;
 }
-.tile-head p,.tile-body p,.tile-footer a, .title-body ul li{
+.icon-div i{
+  display:block;
+  font-size:7em;
+  color:#0D99D6;
+  text-align: center;
+}
+.tile{
+  padding-bottom:10px;
+}
+.tile-head p,.tile-body p,.tile-footer a, .tile-body ul li{
   font-size:1.2rem;
 }
+.tile-footer i{
+  padding-left:10px;
+}
+footer{
+  background-color:#001B30;
+  padding:30px 0px;
+}
+footer *{
+  font-size:12px;
+}
+footer ul li{
+  list-style-type: none;
+}
+footer a{
+  color:#0886B9 !important;
+}
+footer ul a{
+  font-style: italic;
+}
+/*background: url('../img/home-bg2.jpg') repeat scroll center center / cover transparent;*/
