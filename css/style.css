@@ -30,6 +30,7 @@ a{
   max-width:100%;
 }
 .landing-section{
+  position:relative;
   padding-bottom: 325px;
   background: url('../images/full-bg-wo-top-wo-globe.png') repeat scroll left top / cover transparent;
   background-position: 10px 45px !important;
@@ -78,6 +79,7 @@ a{
 /* message section */
 .message-section{
   padding-top:10px;
+  position:relative;
 }
 .message-section .message-head{
   padding-bottom:20px;
@@ -98,8 +100,8 @@ a{
   color:#0D99D6;
   text-align: center;
 }
-.tile{
-  padding-bottom:10px;
+.col-tile{
+  padding-bottom:20px;
 }
 .tile-head p,.tile-body p,.tile-footer a, .tile-body ul li{
   font-size:1.2rem;
@@ -126,11 +128,43 @@ footer ul a{
 .footer-row>.columns{
   padding-top:10px;
 }
+.bg-img-bottom{
+  min-height:180px;
+  background: url('../images/mob-bottom-tail.png') repeat scroll center center / cover transparent;
+  position:absolute;
+  bottom:-18px;
+  left:0px;
+  right:0px;
+
+}
+.bg-img-top{
+  width: 96%;
+  height: 240px;
+  position: absolute;
+  left: 2%;
+  right: 2%;
+  top: -16px;
+}
+.image-responsive{
+  min-width:320px;
+  max-width:320px;
+  margin:auto;
+  min-height:240px;
+  height:100%;
+  display:block;
+
+}
+.show-for-small-only{
+  display:none;
+}
 /*background: url('../img/home-bg2.jpg') repeat scroll center center / cover transparent;*/
 
 @media(max-width: 40em){
   #heading{
     font-size:2.5em;
+  }
+  #top-static-fix{
+    padding-top:250px;
   }
   .landing-section{
     background-image:none;
@@ -144,5 +178,11 @@ footer ul a{
   }
   .col-tile{
     padding-bottom:20px;
+  }
+  .show-for-small-only{
+    display:block;
+  }
+  .message-section{
+    padding-bottom:160px;
   }
 }
