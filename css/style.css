@@ -45,21 +45,20 @@ a{
 }
 .transparent-div{
   position:relative;
-  background-color:rgba(10, 134, 188,0.7);
-  z-index:-1;
 }
 .transparent-div .div-1{
   position:relative;
   background-color:rgba(10, 134, 188,0.7);
   z-index: 1;
+  height:90px;
 }
 .transparent-div .div-2{
   position:relative;
   z-index:-1;
-  background-color:transparent;
+  height:100px;
 }
 .transparent-div>div{
-  height:100px;
+  background-color:rgba(10, 134, 188,0.7);
 }
 #abs-img-logo{
   display: block;
