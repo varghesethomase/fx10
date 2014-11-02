@@ -35,14 +35,31 @@ a{
 .landing-section{
   position:relative;
   padding-bottom: 325px;
-  background: url('../images/full-bg-wo-top-wo-globe.png') repeat scroll left top / cover transparent;
+  background: url('../images/full-bg-wo-top.png') repeat scroll center center / cover transparent;
   background-position: 14px 40px !important;
 }
 #top-static-fix{
   background-color:rgba(10, 134, 188,0.7);
-  padding-top:60px;
-  padding-bottom:50px;
+  padding-top:40px;
   position:relative;
+}
+.transparent-div{
+  position:relative;
+  background-color:rgba(10, 134, 188,0.7);
+  z-index:-1;
+}
+.transparent-div .div-1{
+  position:relative;
+  background-color:rgba(10, 134, 188,0.7);
+  z-index: 1;
+}
+.transparent-div .div-2{
+  position:relative;
+  z-index:-1;
+  background-color:transparent;
+}
+.transparent-div>div{
+  height:100px;
 }
 #abs-img-logo{
   display: block;
@@ -60,6 +77,7 @@ a{
   font-size:16px;
   margin-top:10px;
   line-height:2em;
+  margin-bottom:5px;
 }
 .way-to-involve p{
   font-size:3em; 
@@ -190,7 +208,7 @@ footer ul a{
 }
 /*background: url('../img/home-bg2.jpg') repeat scroll center center / cover transparent;*/
 #tabzilla-panel{
-  z-index:2 !important;
+  z-index:3 !important;
 }
 @media(max-width: 40em){
   #heading{
