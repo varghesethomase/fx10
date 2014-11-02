@@ -23,6 +23,7 @@ a{
 }
 #tabzilla{
   right:15%;
+  z-index: 1000;
 }
 .container-fluid{
   min-width:100%;
@@ -122,4 +123,26 @@ footer a{
 footer ul a{
   font-style: italic;
 }
+.footer-row>.columns{
+  padding-top:10px;
+}
 /*background: url('../img/home-bg2.jpg') repeat scroll center center / cover transparent;*/
+
+@media(max-width: 40em){
+  #heading{
+    font-size:2.5em;
+  }
+  .landing-section{
+    background-image:none;
+    padding-bottom:30px;
+  }
+  #abs-img-logo{
+    display:none;
+  }
+  .message-section .message-head p{
+    font-size:2.5em;
+  }
+  .col-tile{
+    padding-bottom:20px;
+  }
+}
