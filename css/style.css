@@ -225,7 +225,7 @@ footer ul a{
   .video-row iframe{
     width:100%; 
     margin:0% !important;
-    border-radius:none;
+    border-radius:0px;
     border:none;
   }
   .share-btn-div{
