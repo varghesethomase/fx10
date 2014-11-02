@@ -2,6 +2,9 @@
   font-family: 'Open Sans', sans-serif;
   color:#fff;
 }
+.fa{
+  font-family:'FontAwesome'!important;
+}
 body {
   color: #FFFFFF;
   background-color: #013356;
@@ -139,11 +142,11 @@ footer ul a{
 }
 .bg-img-top{
   width: 96%;
-  height: 240px;
+  height: 300px;
   position: absolute;
   left: 2%;
   right: 2%;
-  top: -16px;
+  top: -60px;
 }
 .image-responsive{
   min-width:320px;
@@ -158,13 +161,15 @@ footer ul a{
   display:none;
 }
 /*background: url('../img/home-bg2.jpg') repeat scroll center center / cover transparent;*/
-
+#tabzilla-panel{
+  z-index:2 !important;
+}
 @media(max-width: 40em){
   #heading{
     font-size:2.5em;
   }
   #top-static-fix{
-    padding-top:250px;
+    padding-top:275px;
     background: -webkit-linear-gradient(#437DD0, #013356); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#437DD0, #013356); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(#437DD0, #013356); /* For Firefox 3.6 to 15 */
